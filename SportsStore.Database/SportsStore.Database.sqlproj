@@ -58,4 +58,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="CreateTable.sql" />
+    <None Include="InsertValues.sql" />
+  </ItemGroup>
 </Project>
